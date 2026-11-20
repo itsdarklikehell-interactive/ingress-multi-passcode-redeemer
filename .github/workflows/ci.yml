@@ -9,4 +9,4 @@ on:
 
 jobs:
   ci:
-    uses: itsdarklikehell/ci-templates/.github/workflows/ci-node.yml@v1
+    uses: itsdarklikehell-interactive/ci-templates/.github/workflows/ci-node.yml@v1
