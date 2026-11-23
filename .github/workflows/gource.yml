@@ -11,9 +11,12 @@ on:
       - "gource.mp4"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   gource:
-    uses: itsdarklikehell-interactive/ci-templates/.github/workflows/gource-reusable.yml@fa7ed5632eff0f4f33bed9bcb0a2eddd8ec5eea9
+    uses: itsdarklikehell-interactive/ci-templates/.github/workflows/gource-reusable.yml@5d44fcd97f6ea8cf05ae6f0298fe84ac56829cba
     permissions:
       contents: write
       actions: read
